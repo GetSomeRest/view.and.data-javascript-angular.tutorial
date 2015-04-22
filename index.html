@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html>
+<!-- Step 1: add the "scope", we add in html tag so the entire page is in scope -->
+<html ng-app="myApp">
 <head>
 	<title></title>
 	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://viewing.api.autodesk.com/viewingservice/v1/viewers/style.css" type="text/css">
+	<script src="https://viewing.api.autodesk.com/viewingservice/v1/viewers/viewer3D.min.js"></script>
 </head>
+
 <body>
+<div class="container">
+	<section ng-controller="PanelController as panel">
+		<ul class="nav nav-pills">
+			<li ng-class="{ active:panel.isSelected(0) }">
+				<a href ng-click="panel.selectTab(0)">House</a>
+			</li>
+			<li ng-class="{ active:panel.isSelected(1) }">
+				<a href ng-click="panel.selectTab(1)">Car</a>
+			</li>
+		</ul>
+	</section>
+
+<!-- the viewer goes here -->
+<div id="viewer" class="col-md-11" style="height:600px;"></div>
+</div>
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
 
+<!-- Include app.js in your html -->
+<script type="text/javascript" src="./app.js"></script>
+<script type="text/javascript" src="./viewer.js"></script>
 </body>
 </html>
