@@ -77,14 +77,14 @@ Open the app in `http://localhost:8000/`
 
 ## Best Practices
 
-### Good vs Bad experience
+#### Good vs Bad experience
 Shopping Cart
-[Amazon Shopping Cart](http://www.amazon.com/gp/cart/view.html/ref=nav_flyout_viewcart?ie=UTF8&hasWorkingJavascript=1)
-[Target Shopping Cart](http://www.target.com/checkout_cartview?updatePrices=1&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&orderId=.&lnk=atc_overlay)
-[Simple Shopping Cart](http://jsfiddle.net/slav123/75m7e/3/)
+- [Amazon Shopping Cart](http://www.amazon.com/gp/cart/view.html/ref=nav_flyout_viewcart?ie=UTF8&hasWorkingJavascript=1)
+- [Target Shopping Cart](http://www.target.com/checkout_cartview?updatePrices=1&calculationUsageId=-1&calculationUsageId=-2&calculationUsageId=-7&orderId=.&lnk=atc_overlay)
+- [Simple Shopping Cart](http://jsfiddle.net/slav123/75m7e/3/)
 
-A more comprehensive example...
+#### A more comprehensive example...
 https://github.com/Developer-Autodesk/workflow-node-angular-view.and.data.api
 
-Architecting an entire app
+#### Architecting an entire app
 https://github.com/angular/angular-seed
