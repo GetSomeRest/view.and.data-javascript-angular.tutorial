@@ -4,9 +4,9 @@ In this tutorial we will make an app that display a few 3D models on your page w
 ## Setting Up
 Create `index.html` and `app.js`
 
-Reference the following:
+Reference your `app.js` and either download angular.js or reference from a cdn:
 ```
-<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"></script>
 <script type="text/javascript" src="app.js"></script>
 ```
 
