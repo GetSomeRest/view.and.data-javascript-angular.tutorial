@@ -1,3 +1,5 @@
+# Deprecated sample - not maintained anymore (Summer 2016)
+
 # Simple Angular.js + Autodesk Viewer API App
 In this tutorial we will make an app that display a few 3D models on your page with Angular.js!
 
